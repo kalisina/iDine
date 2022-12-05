@@ -12,7 +12,17 @@ struct ItemDetail: View {
 
     var body: some View {
         VStack {
-            Image(item.mainImage)
+            ZStack(alignment: .bottomTrailing) {
+                Image(item.mainImage)
+                    .resizable()
+                    .scaledToFit()
+                Text("Courtesy of \(item.photoCredit)")
+                    .padding(4)
+                    .background(.black)
+                    .font(.caption)
+                    .foregroundColor(.white)
+                    .offset(x: -5, y: -5)
+            }
             Text(item.description)
                 .padding()
             Spacer()
