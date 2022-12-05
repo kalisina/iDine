@@ -15,6 +15,7 @@
 		04BA954F293E096B00356C46 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA954E293E096B00356C46 /* Menu.swift */; };
 		04BA9551293E097700356C46 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA9550293E097700356C46 /* Order.swift */; };
 		04BA9554293E098C00356C46 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BA9553293E098C00356C46 /* menu.json */; };
+		04BA9556293E11F100356C46 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA9555293E11F100356C46 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		04BA954E293E096B00356C46 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		04BA9550293E097700356C46 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		04BA9553293E098C00356C46 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		04BA9555293E11F100356C46 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				04BA9552293E097B00356C46 /* Resources */,
 				04BA953E293E024400356C46 /* iDineApp.swift */,
 				04BA9540293E024400356C46 /* ContentView.swift */,
+				04BA9555293E11F100356C46 /* ItemRow.swift */,
 				04BA954C293E095D00356C46 /* Helper.swift */,
 				04BA954E293E096B00356C46 /* Menu.swift */,
 				04BA9550293E097700356C46 /* Order.swift */,
@@ -161,6 +164,7 @@
 				04BA9541293E024400356C46 /* ContentView.swift in Sources */,
 				04BA953F293E024400356C46 /* iDineApp.swift in Sources */,
 				04BA9551293E097700356C46 /* Order.swift in Sources */,
+				04BA9556293E11F100356C46 /* ItemRow.swift in Sources */,
 				04BA954F293E096B00356C46 /* Menu.swift in Sources */,
 				04BA954D293E095D00356C46 /* Helper.swift in Sources */,
 			);
