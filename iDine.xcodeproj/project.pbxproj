@@ -19,6 +19,7 @@
 		04BA9556293E11F100356C46 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA9555293E11F100356C46 /* ItemRow.swift */; };
 		04BA9558293E255500356C46 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA9557293E255500356C46 /* ItemDetail.swift */; };
 		04F75B352947D6E300599B2B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F75B342947D6E300599B2B /* MainView.swift */; };
+		04F75B372947DC1B00599B2B /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F75B362947DC1B00599B2B /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		04BA9555293E11F100356C46 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		04BA9557293E255500356C46 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		04F75B342947D6E300599B2B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		04F75B362947DC1B00599B2B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				04BA9550293E097700356C46 /* Order.swift */,
 				04B3AF5129424C6000127414 /* OrderView.swift */,
 				04F75B342947D6E300599B2B /* MainView.swift */,
+				04F75B362947DC1B00599B2B /* CheckoutView.swift */,
 				04BA9542293E024600356C46 /* Assets.xcassets */,
 				04BA9544293E024600356C46 /* Preview Content */,
 			);
@@ -172,6 +175,7 @@
 			files = (
 				04BA9558293E255500356C46 /* ItemDetail.swift in Sources */,
 				04F75B352947D6E300599B2B /* MainView.swift in Sources */,
+				04F75B372947DC1B00599B2B /* CheckoutView.swift in Sources */,
 				04B3AF5229424C6000127414 /* OrderView.swift in Sources */,
 				04BA9541293E024400356C46 /* ContentView.swift in Sources */,
 				04BA953F293E024400356C46 /* iDineApp.swift in Sources */,
