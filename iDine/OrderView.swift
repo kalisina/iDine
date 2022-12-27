@@ -21,6 +21,7 @@ struct OrderView: View {
                             Text("£\(item.price)")
                         }
                     }
+                    .onDelete(perform: deleteItems(at:))
                 }
                 Section {
                     NavigationLink("Place Order") {
@@ -29,7 +30,14 @@ struct OrderView: View {
                 }
             }
             .navigationTitle("Order")
+            .toolbar {
+                EditButton()
+            }
         }
+    }
+
+    func deleteItems(at offsets: IndexSet) {
+        order.items.remove(atOffsets: offsets)
     }
 }
 
